@@ -10,5 +10,28 @@ body
 #header-nav
 {
 	background-color: #f6b319;
-	
+	border: 1px solid black;
+}
+
+/** navbar-brand **/
+
+.navbar-brand a, .navbar-brand a:hover, .navbar-brand a:focus  
+{
+	text-decoration: none;
+}
+
+.navbar-brand h1
+{
+	color: #212529;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 5%;	
+}
+
+/** Button **/
+
+button
+{
+	clear: right;
 }
